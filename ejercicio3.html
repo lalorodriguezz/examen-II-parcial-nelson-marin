@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 3</title>
+</head>
+<body>
+    <script>
+        // diseñar un programa que calcule el promedio de los 3 parciales  de un estudiante.
+        // mostrar el mensaje aprobado si el promedio es mayor o igual a 60
+        // mostrar el mensaje aplazado  si el promedio es menor a 60
+        var parcial1 = parseInt(prompt("Ingrese el primer parcial"));
+        var parcial2 = parseInt(prompt("Ingrese el segundo parcial"));
+        var parcial3 = parseInt(prompt("Ingrese el tercer parcial"));
+        var promedio = (parcial1 + parcial2 + parcial3) / 3;
+        if (promedio >= 60) {
+            alert("Aprobado");
+        } else {
+            alert("Aplazado");
+        }
+
+    </script>
+</body>
+</html>
