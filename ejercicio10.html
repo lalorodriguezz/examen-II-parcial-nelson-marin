@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 10</title>
+</head>
+<body>
+    <script>
+        // suponiendo que un chancho con yucas se puede cocinar exclusivamente con repollo, yuca, y chicharron
+        // y que para cada cuatro personas se utiliza medio de repollo, 2 libras de yuca y 11 chicharrones
+        // diseñar un programa que pida por pantalla el numero de personas que van a comer 
+        // el precio por repollo y el precio por yuca y chicharron
+        // y el coste total de la comida.
+        // Nota: el precio de los ingredientes se puede cambiar en cualquier momento.
+
+        let personas = prompt("ingrese el numero de personas");
+        let repollo = prompt("ingrese el precio del repollo");
+        let yuca = prompt("ingrese el precio de la yuca");
+        let chicharron = prompt("ingrese el precio del chicharron");
+        let repollo_total = personas / 4 * repollo;
+        let yuca_total = personas / 4 * yuca;
+        let chicharron_total = personas / 4 * chicharron;
+        let total = repollo_total + yuca_total + chicharron_total;
+        alert("el coste total de la comida es: " + total);
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
